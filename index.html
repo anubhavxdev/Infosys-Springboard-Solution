@@ -47,16 +47,22 @@
             text-decoration: none;
             font-size: 16px;
             border-radius: 6px;
-            transition: background-color 0.3s;
+            transition: background-color 0.3s, transform 0.3s;
         }
         .btn:hover {
             background-color: #388e3c;
+            transform: scale(1.05);
         }
         .container {
             background-color: #1e1e1e;
             padding: 25px;
             border-radius: 10px;
             box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .container:hover {
+            transform: translateY(-3px);
+            box-shadow: 0px 8px 20px rgba(0,0,0,0.6);
         }
         img.profile {
             width: 120px;
@@ -65,6 +71,33 @@
             display: block;
             margin: 0 auto 10px auto;
             border: 3px solid #ff9800;
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+        }
+        img.profile:hover {
+            box-shadow: 0 0 15px #ff9800;
+            transform: scale(1.05);
+        }
+        .badge-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 15px;
+        }
+        .badge {
+            background-color: #2c2c2c;
+            border: 1px solid #444;
+            padding: 8px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #ffcc80;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #888;
         }
         @media (max-width: 600px) {
             body {
@@ -86,7 +119,6 @@
         <div class="username">@anubhavxdev</div>
         <div class="bio">Just a guy solving your problems so you can watch Netflix in peace 🎬</div>
         <div class="signature">~ LoGiC (Haan wahi AWS Paglu, Developer, Anubhav hun mein)</div>
-        <div class="bio"></div>
         
         <h1>📚 Infosys-Springboard-Solution – Because I Care (…More Than I Should)</h1>
         <p>Hey fellow procrastinators 👋,<br>
@@ -108,6 +140,15 @@
             <li>You <strong>WILL NOT</strong> pretend you solved it yourself (okay fine… you will, but at least star it first)</li>
         </ul>
 
+        <h2>🏆 Personality & Branding</h2>
+        <div class="badge-container">
+            <div class="badge">🏅 Certified Copy-Paste Engineer</div>
+            <div class="badge">☕ Coffee-Driven Development Expert</div>
+            <div class="badge">🎬 Netflix & Chill Strategist</div>
+            <div class="badge">💡 Idea Generator Since Birth</div>
+            <div class="badge">🔥 Bug Fixer (After 3 AM)</div>
+        </div>
+
         <h2>🙏 How to Say Thanks</h2>
         <ol>
             <li>Scroll up to the top of the repo page</li>
@@ -119,7 +160,30 @@
         <p>If this helps you pass but you still fail the final exam… that’s on you, buddy.<br>
         I’m not your life coach, just your homework savior. 😎</p>
 
-        <a href="https://github.com/anubhavxdev/Infosys-Springboard-Solution" class="btn">🚀 Go to Repo</a>
+        <a href="https://github.com/anubhavxdev/Infosys-Springboard-Solution" 
+           class="btn" 
+           id="repo-btn">🚀 Go to Repo</a>
     </div>
+
+    <footer>
+        Made with ❤️, ☕, and way too much sarcasm.<br>
+        <span style="font-size:0.8rem;">© 2025 LoGiC – All rights (and jokes) reserved.</span>
+    </footer>
+
+    <!-- Confetti Script -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script>
+        document.getElementById('repo-btn').addEventListener('click', function(event) {
+            event.preventDefault();
+            confetti({
+                particleCount: 200,
+                spread: 70,
+                origin: { y: 0.6 }
+            });
+            setTimeout(() => {
+                window.location.href = this.href;
+            }, 800);
+        });
+    </script>
 </body>
 </html>
