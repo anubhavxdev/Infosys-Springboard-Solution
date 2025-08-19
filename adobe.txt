@@ -1,0 +1,152 @@
+
+    **Adobe Flash/Animate MCQs – Questions with Answers and Explanations**
+
+1. **The step in production is performed to add more detail to your scene.**
+
+   * Answer: Polishing ✅
+   * Explanation: Polishing is the step in production where more detail and refinement are added to make the scene visually complete.
+
+2. **This tool allows you to modify the gradient in three ways.**
+
+   * Answer: Gradient Transform Tool ✅
+   * Explanation: Allows moving, resizing, and rotating/skewing gradient fills.
+
+3. **This area in Flash is similar to the clipboard in Microsoft Office applications.**
+
+   * Answer: Library Panel ✅
+   * Explanation: Stores symbols, graphics, audio, and video for reuse.
+
+4. **This tool allows you to scale, rotate and skew objects in the flash stage.**
+
+   * Answer: Free Transform Tool ✅
+   * Explanation: Lets you scale, rotate, skew, and distort objects.
+
+5. **The Windows> Align> Entire Stage makes the:**
+
+   * Answer: object align with another object ✅
+   * Explanation: Aligns the selected object relative to the entire stage.
+
+6. **What part of the menu bar allows you to hide/unhide panels?**
+
+   * Answer: Window ✅
+   * Explanation: Window menu shows or hides panels like Library, Properties, Tools, etc.
+
+7. **The brush option that paints behind the object on the stage.**
+
+   * Answer: Paint Behind ✅
+   * Explanation: Paints only in empty areas, appearing behind existing objects.
+
+8. **What does the abbreviation FPS mean?**
+
+   * Answer: Frames Per Second ✅
+   * Explanation: Defines how many frames are displayed per second.
+
+9. **The tool that allows you to create a polygon and a star.**
+
+   * Answer: PolyStar Tool ✅
+   * Explanation: Used to draw both polygons and stars with adjustable properties.
+
+10. **It allows you to insert text within your flash stage.**
+
+    * Answer: Text Tool ✅
+    * Explanation: Inserts static, dynamic, or input text onto the stage.
+
+11. **This deals with the rotation and movement of the object from one point to another in specific frames.**
+
+    * Answer: Motion Tween ✅
+    * Explanation: Creates movement, rotation, scaling, or transparency changes between keyframes.
+
+12. **These are frames that are significant. It is the basis for tweened animation.**
+
+    * Answer: Keyframes ✅
+    * Explanation: Significant frames where new symbols or actions are defined.
+
+13. **This view is similar to the old interface of Flash and is perfect for old Flash users.**
+
+    * Answer: Classic View ✅
+    * Explanation: Looks like the older Flash interface, familiar for long-time users.
+
+14. **This is like a comic strip that shows the important parts of a story.**
+
+    * Answer: Storyboard ✅
+    * Explanation: Visually represents important parts of a story before animation.
+
+15. **This area is much like a theatre stage. The white area displays what will be shown on the screen.**
+
+    * Answer: Flash Stage ✅
+    * Explanation: White area represents what is visible during playback.
+
+16. **By default, this panel is located below the flash environment.**
+
+    * Answer: Property Inspector Panel ✅
+    * Explanation: Shows details and editable properties of selected objects.
+
+17. **A powerful tool in Flash that allows you to have greater control when creating lines.**
+
+    * Answer: Pen Tool ✅
+    * Explanation: Lets you create straight and curved lines with full control.
+
+18. **To make an object transparent, the \_\_\_ should be set in the Property Inspector panel.**
+
+    * Answer: Alpha Value Settings ✅
+    * Explanation: Adjust alpha to control transparency (100% visible, 0% invisible).
+
+19. **The last step in production. It is done to verify if you have met the goals of the project.**
+
+    * Answer: Refining ✅
+    * Explanation: Final verification and finishing touches.
+
+20. **This tool allows you to grab a color of another object and apply it to another.**
+
+    * Answer: Eyedropper Tool ✅
+    * Explanation: Picks up colors, gradients, or text styles for reuse.
+
+21. **This action allows you to save the object in the library panel for future use.**
+
+    * Answer: Convert to Symbol ✅
+    * Explanation: Saves object in Library for reuse as Movie Clip, Button, or Graphic.
+
+22. **The two ways to draw fills in a drawing?**
+
+    * Answer: Fill and Autofill ✅
+    * Explanation: Fill manually colors enclosed areas; Autofill colors shapes as you draw.
+
+23. **This is the shortcut key for adding a keyframe.**
+
+    * Answer: F6 ✅
+    * Explanation: Inserts a keyframe on the selected frame in the timeline.
+
+24. **This type of drawing is a grouped shape; it has a rectangular surrounding in it when selected.**
+
+    * Answer: Object Drawing ✅
+    * Explanation: Creates a single grouped object that is independent of other shapes.
+
+25. **This is the shortcut key for adding a keyframe.**
+
+    * Answer: F6 ✅
+    * Explanation: Adds a keyframe for animation creation.
+
+26. **This area in Flash is similar to the clipboard in Microsoft Office applications.**
+
+    * Answer: Library Panel ✅
+    * Explanation: Stores symbols, graphics, audio, and other assets for reuse.
+
+27. **It is to create new file.**
+
+    * Answer: Ctrl + N ✅
+    * Explanation: Shortcut for creating a new file.
+
+28. **The tool that creates a rectangle, which you can customize the sides.**
+
+    * Answer: Rectangle Primitive Tool ✅
+    * Explanation: Lets you draw rectangles and customize corner roundness.
+
+29. **This tool is useful when you are zoomed in and need to move around an area in your artwork.**
+
+    * Answer: Hand Tool ✅
+    * Explanation: Pans the stage without moving objects.
+
+30. **To start Adobe Flash, Click on Start > ?**
+
+    * Answer: All Programs ✅
+    * Explanation: Start → All Programs → Adobe Flash (Animate).
